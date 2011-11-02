@@ -1,6 +1,7 @@
 require "exceptional_and_rake/version"
 
 module ExceptionalAndRake
+  
   # Define Rake-tasks like you usually do, but instead of:
   #
   #   task :name_of_task do
@@ -25,4 +26,4 @@ module ExceptionalAndRake
   end
 end
 
-include ExceptionalAndRake if defined?(Rake) && defined?(Exceptional)
+include ExceptionalAndRake if defined?(Rake)
